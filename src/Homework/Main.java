@@ -20,8 +20,8 @@ public class Main {
 
         System.out.println("\nЗадача_1");
 
-        for(int i = 1; i < 11; i = i + 1){
-            System.out.println("Итерация цикла " + i);
+        for(int i = 1; i <= 10; i = i + 1){
+            System.out.println(i);
         }
     }
 
@@ -30,7 +30,7 @@ public class Main {
         System.out.println("\nЗадача_2");
 
         for(int i = 10; i >= 1; i = i - 1 ){
-            System.out.println("Итерация цикла " + i);
+            System.out.println(i);
         }
     }
 
@@ -39,7 +39,7 @@ public class Main {
         System.out.println("\nЗадача_3");
 
         for(int i = 0; i < 17; i = i + 2 ){
-            System.out.println("Итерация цикла " + i);
+            System.out.println(i);
         }
     }
 
@@ -48,14 +48,14 @@ public class Main {
         System.out.println("\nЗадача_4");
 
         for(int i = 10; i >= -10; i = i - 1 ){
-            System.out.println("Итерация цикла " + i);
+            System.out.println(i);
         }
     }
 
     public static void task5() {
 
         System.out.println("\nЗадача_5");
-        for (int i = 1904; i < 2096; i = i + 4){
+        for (int i = 1904; i <= 2096; i = i + 4){
             System.out.println( i + " год является высокосным");
         }
     }
@@ -84,7 +84,7 @@ public class Main {
 
         int salary = 29000;
         int total = 0;
-        for (int i = 1; i <= 12; i++) {
+        for (int i =1; i <= 12; i++) {
             total = total + salary;
             System.out.println("Месяц "+ i+ " сумма накоплений равна " + total + " рублей");
         }
@@ -110,11 +110,8 @@ public class Main {
 
         System.out.println("\nЗадача_10");
 
-        int number = 2;
-        int total = 1;
-        for (int i = 1; i <= 10; i=i*2) {
-            total = total * number;
-            System.out.println( total);
+        for (int i = 1; i <= 10; i++) {
+            System.out.println( "2 * " +i+ " = "+2*i);
         }
     }
 }
